@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(0, 122, 207, 1) 0%, rgba(0, 151, 255, 1) 100%);
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(-10vh);
+}
+
+.main__desc {
+    display: inline-block;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+}
+
+.main__first {
+    margin-bottom: 30px;
+}
+
+.selectify {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 200px;
+}
+
+.selectify-select {
+    padding: 7px 14px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    background-color: #ffffff;
+    transition: ease-in-out 200ms background-color;
+    border: 1px solid #000;
+}
+
+.selectify-select:hover {
+    background-color: #f4f4f4;
+}
+
+.selectify-options {
+    position: absolute;
+    top: calc(100% - 1px);
+    width: 100%;
+    overflow: auto;
+    max-height: 100px;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.selectify-options::-webkit-scrollbar {
+    width: 4px;
+}
+
+.selectify-options::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+.selectify-options::-webkit-scrollbar-thumb {
+    background-color: #000;
+    cursor: pointer;
+}
+
+.selectify-option {
+    width: 100%;
+    border: none;
+    display: block;
+    padding: 7px 14px;
+    cursor: pointer;
+    text-align: left;
+    background-color: #fff;
+    transition: ease-in-out 200ms background-color;
+}
+
+.selectify-option:hover {
+    background-color: #f4f4f4;
+}
