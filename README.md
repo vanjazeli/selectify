@@ -21,4 +21,4 @@ selectify.init();
 ```
 
 # Docs
-The ```javascript new Selectify('string', {object}) ``` constructor takes in two arguements. 
+The ```new Selectify('string', {object})``` constructor takes in two arguements. 
