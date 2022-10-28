@@ -23,6 +23,8 @@ selectify.init();
 # Docs
 The ```new Selectify(selector, propertiesObject)``` constructor takes in two arguements.
 
-```selector``` is type of string and represents the targeted ```<select>``` element's class name. ```propertiesObject``` is type of object and represents the which we can use to modify the targeted ```<select>``` element to our needs by parsing multiple properties inside of it.
+```selector``` is type of string and represents the targeted ```<select>``` element's class name. ```propertiesObject``` is type of object and it is used to modify the targeted ```<select>``` element to our needs by parsing multiple properties inside of it.
 
+## ```propertiesObject``` properties
 
+```styleClass``` defines a regular class name
