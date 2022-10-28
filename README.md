@@ -5,7 +5,7 @@ A small and simple JavaScript library which makes it possible to style &lt;optio
 Check out how selectify works right [here](https://vanjazeli.github.io/selectify/).
 
 # Usage
-Import the selectify JavaScript class to your main JavaScript file.
+Import the selectify JavaScript class from selectify.js file to your main JavaScript file.
 ```javascript
 import Selectify from "./selectify.js";
 
