@@ -20,11 +20,24 @@ const selectify = new Selectify("js-selectify", {
 selectify.init();
 ```
 
-# Docs
+# How to use?
 The ```new Selectify(selector, propertiesObject)``` constructor takes in two arguements.
 
 ```selector``` is type of string and represents the targeted ```<select>``` element's class name. ```propertiesObject``` is type of object and it is used to modify the targeted ```<select>``` element to our needs by parsing multiple properties inside of it.
 
-### ```propertiesObject``` properties
+### Properties of ```propertiesObject```
 
-```styleClass``` defines a regular class name
+#### ```styleClass``` type: string
+Defines a class name that will be given to the mockup. All the elements inside of a mockup will be given a class name based on the ```styleClass```.
+
+### ```bemClass``` type: string
+Defines a class name that will be given to the mockup. All the elements inside of a mockup will be given a BEM styled class name based on the ```bemClass```.
+
+### ```closeOnMouseLeave``` type: bool
+Defines whether the mockup will automatically close on 'mouseleave'.
+
+### ```disableBelow``` type: number
+Defines the width of the window (in pixels) below which the selectify will stop taking effect.
+
+### ```animation``` type: object
+
