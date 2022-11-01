@@ -40,4 +40,10 @@ Defines whether the mockup will automatically close on 'mouseleave'.
 Defines the width of the window (in pixels) below which the selectify will stop taking effect.
 
 #### ```animation``` type: object
+Defines the animation behaviour and it takes in two properties.
 
+##### ```maxHeight``` type: number
+Defines the height of mockup when it is opened.
+
+##### ```animationTime``` type: number
+Defines the animation duration.
