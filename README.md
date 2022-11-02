@@ -82,8 +82,15 @@ selectify.init();
 #### ```animation``` type: object
 Defines the animation behaviour and it takes in two properties.
 
-##### ```maxHeight``` type: number
-Defines the height of mockup when it is opened.
+```javascript
+import Selectify from "./selectify.js";
 
-##### ```animationTime``` type: number
-Defines the animation duration.
+const selectify = new Selectify("js-selectify", {
+    animation: {
+        maxHeight: 100,
+        animationTime: 200,
+    },
+});
+
+selectify.init();
+```
