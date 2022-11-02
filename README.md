@@ -80,7 +80,7 @@ selectify.init();
 ```
 
 #### ```animation``` type: object
-Defines the animation behaviour and it takes in two properties.
+Defines the animation behaviour.
 
 ```javascript
 import Selectify from "./selectify.js";
