@@ -25,8 +25,6 @@ The ```new Selectify(selector, propertiesObject)``` constructor takes in two arg
 
 ```selector``` is type of string and represents the targeted ```<select>``` element's class name. ```propertiesObject``` is type of object and it is used to modify the targeted ```<select>``` element to our needs by parsing multiple properties inside of it.
 
-## Properties of ```propertiesObject```
-
 #### ```styleClass``` type: string
 Defines a class name that will be given to the mockup. All the elements inside of a mockup will be given a class name based on the ```styleClass```.
 
