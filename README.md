@@ -19,8 +19,6 @@ const selectify = new Selectify("js-selectify", {
 
 selectify.init();
 ```
-
-# How to use?
 The ```new Selectify(selector, propertiesObject)``` constructor takes in two arguements.
 
 ```selector``` is type of string and represents the targeted ```<select>``` element's class name. ```propertiesObject``` is type of object and it is used to modify the targeted ```<select>``` element to our needs by parsing multiple properties inside of it.
